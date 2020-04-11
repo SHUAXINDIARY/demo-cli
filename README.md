@@ -4,7 +4,7 @@
 
 ## 项目描述
 - 解决不使用SPA应用框架脚手架时，还可以使用CSS预处理器、ES6语法、TS的一个脚手架
-
+- [文档:暂时](https://shuaxindiary.github.io/2020/04/11/%E5%85%B6%E4%BB%96/demo-cli/#more)
 ## 适用场景
 - 学习TS/ES6/LESS
 - 做一些传统前端页面开发提升效率
