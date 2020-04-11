@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+body .box {
+  display: flex;
+}
+body .box .left,
+body .box .right {
+  width: 50vw;
+  height: 50vh;
+  height: 100vh;
+  background-color: #ffffff;
+}
+body .box .left {
+  background-color: lightblue;
+}
+body .box .right {
+  background-color: lightcoral;
+  color: #ffffff;
+}

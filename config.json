@@ -1,0 +1,8 @@
+{
+    "ts": false,
+    "less": false,
+    "server": {
+        "root": "src",
+        "livereload": true
+    }
+}
