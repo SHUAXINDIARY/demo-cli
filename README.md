@@ -62,8 +62,11 @@ npm run build
 - tsconfig.json--ts配置文件(可自定义参考)
 - config.json----配置项目环境：例如是否使用ts/less、配置本地服务器信息
 ```
-- [config配置本地服务器指南]([gulp-connect](https://www.npmjs.com/package/gulp-connect))
+
+- [config配置本地服务器指南]([gulp-connect](https://www.npmjs.com/package/gulp-connect)
+
 - [ts配置](https://typescript.bootcss.com/tsconfig-json.html)
+
 ### less和ts说明
 >less
 - 如果使用less，链接引入时应引入css目录下同名css文件
