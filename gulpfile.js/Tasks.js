@@ -101,12 +101,12 @@ let Tasks = {
         if (config.ts) {
             watch('src/ts/*.ts', Tasks.ts)
         } else {
-            watch('src/css/*.css', Tasks.css)
+            watch('src/js/*.js', Tasks.js)
         }
         if (config.less) {
             watch('src/less/*.less', Tasks.less)
         } else {
-            watch('src/js/*.js', Tasks.js)
+            watch('src/css/*.css', Tasks.css)
         }
         watch('src/*.html', Tasks.html)
         done()
