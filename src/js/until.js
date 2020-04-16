@@ -4,6 +4,17 @@ let Until = {
         console.log('until的测试方法')
     },
     /**
+     * @param {number} lastTime 定时器id
+     * @param {function} callback 要执行的函数
+     * @param {number} time 延迟时间
+     */
+    debounce(lastTime, callback, time) {
+        clearTimeout(lastTime)
+        return setTimeout(() => {
+            callback()
+        }, time)
+    },
+    /**
      * 创建dom
      * @param {Node} domName 创建目标dom名称，必须
      * @param  {...any} rest dom要绑定的属，可选；dom下文本内容，可选
