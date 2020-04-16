@@ -7,6 +7,6 @@ if (process.env.NODE_ENV === 'development') {
 
 } else {
     console.log('开始打包');
-    exports.build = series(Tasks.clean, Tasks.ts, parallel(Tasks.html, Tasks.css, Tasks.js, Tasks.img, Tasks.assets))
+    exports.build = series(Tasks.clean,  parallel(Tasks.html, Tasks.css, Tasks.js, Tasks.img, Tasks.assets))
 }
 

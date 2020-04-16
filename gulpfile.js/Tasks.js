@@ -58,7 +58,6 @@ let Tasks = {
                 .pipe(babel())
                 .pipe(uglify())
                 .pipe(dest(paths.js.dest))
-                .pipe(connect.reload());
         }
     },
     html() {

@@ -9,7 +9,7 @@ let paths = {
         dest: 'src/css/'
     },
     js: {
-        src: 'src/js/*.js',
+        src: ['src/js/*/*.js','src/js/*.js'],
         dest: 'dist/js/'
     },
     html: {
