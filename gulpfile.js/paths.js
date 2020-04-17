@@ -1,7 +1,7 @@
 // 路径管理
 let paths = {
     css: {
-        src: 'src/css/*.css',
+        src: ['src/css/*.css', 'src/css/*/*.css'],
         dest: 'dist/css/'
     },
     less: {
@@ -9,11 +9,11 @@ let paths = {
         dest: 'src/css/'
     },
     js: {
-        src: ['src/js/*/*.js','src/js/*.js'],
+        src: ['src/js/*/*.js', 'src/js/*.js'],
         dest: 'dist/js/'
     },
     html: {
-        src: 'src/*.html',
+        src: ['src/*.html', 'src/*/*.html'],
         dest: 'dist/'
     },
     img: {
@@ -25,7 +25,7 @@ let paths = {
         dest: 'dist/assets/'
     },
     ts: {
-        src: 'src/ts/*.ts',
+        src: ['src/ts/*.ts', 'src/ts/*/*.ts'],
         dest: 'src/js/'
     }
 }

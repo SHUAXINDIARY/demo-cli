@@ -98,16 +98,16 @@ let Tasks = {
     },
     listen(done) {
         if (config.ts) {
-            watch('src/ts/*.ts', Tasks.ts)
+            watch(paths.ts.src, Tasks.ts)
         } else {
-            watch('src/js/*.js', Tasks.js)
+            watch(paths.js.src, Tasks.js)
         }
         if (config.less) {
-            watch('src/less/*.less', Tasks.less)
+            watch(paths.less.src, Tasks.less)
         } else {
-            watch('src/css/*.css', Tasks.css)
+            watch(paths.css.src, Tasks.css)
         }
-        watch('src/*.html', Tasks.html)
+        watch(paths.html.src, Tasks.html)
         done()
     }
 }
